@@ -1,0 +1,68 @@
+.header{
+    background-color: grey;
+    text-align: center;
+    padding: 1vh;
+    margin-bottom: 4vh;
+}
+/* Aside Search Container */
+.masterDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.searchDiv{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: flex-start; */
+    position: relative;
+    left: 5vh;
+    padding: 1vh 2vh 3vh 2vh;
+    background-color: lightgray;
+}
+/* .searchForCity{
+    position: relative;
+    left: 2vh;
+} */
+#input{
+    padding-right: 2vh;
+    border: 2px solid black;
+    /* position: relative;
+    left: 2vh;
+    right: 2vh; */
+}
+.searchBtn{
+    background-color: blue;
+    color: white;
+}
+.previousSearch{
+    width: 100%;
+}
+
+
+/* Main Section */
+.mainDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-left: 5vh;
+}
+    /* Current Weather */
+    .current{
+        border: 2px solid black;
+        padding: 0vh 4vh 4vh 0vh;
+    }
+    .w{
+        padding-left: 2vh;
+        font-size: 150%;
+    }
+
+    /* Forecast */
+    .forecast{
+        border: 2px solid black;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .forecastCard{
+        padding: 2vh 1vh 1vh 2vh;
+    }
